@@ -1,0 +1,2 @@
+# Art-Gallery-Management
+ To create Art Gallery Management System that keeps record of artists, their  paintings, art gallery details, exhibition details and showcases pictures of paintings to  the customers and with GUI (front-end) user can see all paintings, sculptures and user  can also purchase from it. It also has admin dashboard through which admin can also  analyze inferences such as total customers, total shipments, expensive shipping etc. Admin has access to add new paintings, sculptures and also can modify details
