@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			background-color: black;
+		}
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			height: 300px;
+			margin-top: 50px;
+			color: white;
+			transition: all 0.3s ease-in-out;
+		}
+		.container:hover {
+			background-color: white;
+			color: black;
+           
+		}
+		.image {
+			width: 35 q0px;
+			height: 250px;
+			margin-bottom: 40px;
+			margin-left: 20px;
+        
+		}
+		.image2 {
+			width: 35 q0px;
+			height: 250px;
+			margin-bottom: 40px;
+			margin-left: 20px;
+        
+		}
+		.image1 {
+			width: 35 q0px;
+			height: 250px;
+			margin-bottom: 50px;
+			margin-right: 20px;
+		}
+        .image:hover{
+            box-shadow: 10px 10px 40px black;
+        }
+		.image1:hover{
+            box-shadow: 10px 10px 40px black;
+        }
+		.image2:hover{
+            box-shadow: 10px 10px 40px black;
+        }
+		.text {
+			font-size: 24px;
+			line-height: 1.5;   
+			width: 50%;
+			margin-right: 7rem;
+			margin-top: -2rem;
+		}
+		.text1 {
+			font-size: 24px;
+			line-height: 1.5;   
+			width: 50%;
+			margin-left: 9rem;
+			margin-top: -2rem;
+		}
+		.text2 {
+			font-size: 24px;
+			line-height: 1.5;   
+			width: 50%;
+			margin-right: 7rem;
+			margin-top: -2rem;
+		}
+#transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 999;
+  display: none;
+}
+#myLink:hover {
+  transform: rotateY(180deg);
+}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="image">
+			<img src="https://th.bing.com/th/id/OIP.YqUFTxSIj-WAnt2VQRyYLwHaFo?w=275&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Landscape Painting" class="main_p">
+		</div>
+		<div class="text">
+			<a href="Painting.html"><h2>Paintings</h2></a> 
+			<div id="transition"></div>	
+			<p>Experience the beauty and depth of human expression throughout the ages with our carefully curated collection of historical paintings, each a testament to the artistry and vision of its creator</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="text1">
+			<a href="Egypt.html"><h2>Egyptian Artifacts</h2></a>
+			<p>Explore the rich history and culture of ancient Egypt with our exquisite collection of Egyptian artifacts. From intricately designed amulets to beautifully crafted sculptures, each piece offers a unique glimpse into the fascinating world of one of the world's greatest civilizations.</p>
+		</div>
+		<div class="image1">
+			
+				<img src="https://th.bing.com/th/id/OIP.MYrwGfw2sEHBP6SC6LcQuQHaJ1?w=182&h=243&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Portrait Painting" class="main_p">
+			  
+		</div>
+	</div>
+	<div class="container">
+		<div class="image2">
+			<img src="data:image/jpeg;base64,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" alt="Abstract Painting"  class="main_p">
+		</div>
+		<div class="text2">
+			<a href="Sculpture.html"><h2>Sculptures</h2></a>
+			<div id="transition"></div>	
+			<p>Explore our museum's remarkable sculpture collection, featuring stunning pieces from different periods of history.</p>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+  $("#myLink").click(function(event) {
+    event.preventDefault(); // prevent the default link behavior
+    $("#transition").fadeIn(1); // show the transition element
+    TweenMax.to("#myLink", 0.5, {
+      y: -50, // move the link element up
+      opacity: 0, // fade out the link element
+      ease: Power2.easeOut,
+      onComplete: function() {
+        window.location.href = $("#myLink").attr("href"); // redirect to the link's href attribute
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>

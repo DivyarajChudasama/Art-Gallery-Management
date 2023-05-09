@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card1 {
+    background-color:olivedrab;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    font-size: large;
+  }
+  .card2 {
+    background-color: aquamarine;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    font-size: large;
+  }
+  .card3 {
+    background-color:lightcoral;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    font-size: large;
+  }
+  
+  
+  .card h2 {
+    margin-top: 0;
+    
+  }
+.card p {
+    margin: 5px;
+    font-size: larger;
+    
+  }
+#canva
+{
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}

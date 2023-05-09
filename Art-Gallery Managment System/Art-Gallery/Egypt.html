@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./asset/pharaoh.png" type="image/jpeg">
+  <!--google fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--custom css-->
+  <link rel="stylesheet" href="./Egypt.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+    crossorigin="anonymous"></script>
+  <title>Egypt</title>
+
+</head>
+
+<body>
+
+    <!--sidenav-->
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/bg.png">
+          </div>
+          <a href="#user"><img class="circle"
+              src="data:image/jpeg;base64,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"></a>
+          
+
+          <a href="#email"><span class="white-text email"><i class="fab fa-instagram"
+                style="height: 15px;color: rgb(196, 167, 8);" aria-hidden="true"></i>@wmanasi_art06</span></a>
+        </div>
+      <li>
+        <div class="divider1"></div>
+      </li>
+      <li><a class="subheader">About me</a></li>
+
+      <li><a class="waves-effect" target="_blank" href="https://wadermanasi.github.io/portfolio/">Portfolio</a></li>
+    </ul>
+    <!--end of sidenav-->
+
+    <div class="center">
+    
+      <div class="carousel ">
+        <a class="carousel-item z-depth-4" href="#one!"><img src="./asset/Egyptians/Tut.jpg"
+            alt="logo"></a>
+        <a class="carousel-item " href="#eleven!"><img src="./asset/Egyptians/Ancient_Egypt_Great_Sphinx_of_Tanis,_c._1900_BC,_12th_Dynasty_(Maybe_6th_or_even_4th_)_(27713063123).jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Bust of Amenophis IV or Akhenaten.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Colossal Statue of Amenhotep IV.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/God Ptah.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Outer coffin of henutmehyt.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Queen Karomama I.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Statuette of Lady Kemtet.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Stele of Nefertiabet.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Stele of the snake king.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/The Gebel el-Arak knife.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/The god Amun protecting Tutankhamun.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Thutmosis III.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Tefnut.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Horus.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Isis.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./asset/Egyptians/Osiris.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="./asset/Egyptians/Tut.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="./asset/Egyptians/Triad of Menkaure.jpg"></a>
+        <a class="carousel-item" href="#five!"><img src="./asset/Egyptians/Anubis.jpg"></a>
+        <a class="carousel-item" href="#six!"><img src="./asset/Egyptians/King Tut's mummy.jpg"></a>
+        <a class="carousel-item" href="#eight!"><img src="./asset/Egyptians/AN EGYPTIAN GRANODIORITE FALCON.jpg"></a>
+        <a class="carousel-item" href="#eleven!"><img src="./asset/Egyptians/king Khafra.jpg"></a>
+        <a class="carousel-item" href="#twelve!"><img src="./asset/Egyptians/Osiris.jpg"></a>
+      </div>
+
+    </div>
+    <!--parallax-->
+    <div class="parallax-container">
+      <div class="parallax"><img src="./asset/Egyptians/petra1.jpg"></div>
+    </div>
+
+    <section id="gallery">
+
+      <!--water color-->
+      <section id="paint">
+        <div class="masonry">
+          <div class="item">
+            <h6 class="center">EGYPTIAN GRANODIORITE FALCON</h6>
+            <img src="./asset/Egyptians/AN EGYPTIAN GRANODIORITE FALCON.jpg" alt="Chirping birds">
+          </div>
+          <div class="item">
+            <h6 class="center">Great Sphinx of Tanis</h6>
+            <img src="./asset/Egyptians/Ancient_Egypt_Great_Sphinx_of_Tanis,_c._1900_BC,_12th_Dynasty_(Maybe_6th_or_even_4th_)_(27713063123).jpg" alt="Charming flowers">
+          </div>
+          <div class="item">
+            <h6 class="center">Anubis </h6>
+            <img src="./asset/Egyptians/Anubis.jpg" alt="Doodles">
+          </div>
+          <div class="item">
+            <h6 class="center">Akhenaten</h6>
+            <img src="./asset/Egyptians/Bust of Amenophis IV or Akhenaten.jpg" alt="Pencil coloring">
+          </div>
+          <div class="item">
+            <h6 class="center">Colossal Statue of Amenhotep IV</h6>
+            <img src="./asset/Egyptians/Colossal Statue of Amenhotep IV.jpg" alt="Kalash">
+          </div>
+          <div class="item">
+            <h6 class="center">Egyptian King Tutankhamun</h6>
+            <img src="./asset/Egyptians/Egyptian King Tutankhamun.jpg" alt="Ganapati">
+          </div>
+          <div class="item">
+            <h6 class="center">God Ptah</h6>
+            <img src="./asset/Egyptians/God Ptah.jpg" alt="Lemon">
+          </div>
+          <div class="item">
+            <h6 class="center">Hermanubis</h6>
+            <img src="./asset/Egyptians/Hermanubis.jpg" alt="Tint & Shades">
+
+          </div>
+          <div class="item">
+            <h6 class="center">Horus</h6>
+            <img src="./asset/Egyptians/Horus.jpg" alt="Radhe">
+          </div>
+          <div class="item">
+            <h6 class="center">Isis</h6>
+            <img src="./asset/Egyptians/Isis.jpg" alt="Good Vibes">
+          </div>
+          <div class="item">
+            <h6 class="center">king Khafra</h6>
+            <img src="./asset/Egyptians/king Khafra.jpg" alt="Girl">
+          </div>
+          <div class="item">
+            <h6 class="center">King Tutankhamun mummy</h6>
+            <img src="./asset/Egyptians/King Tut's mummy.jpg" alt="Scene">
+          </div>
+          <div class="item">
+            <h6 class="center">Amenophis II</h6>
+            <img src="./asset/Egyptians/Amenophis II.jpg" alt="Vithal">
+          </div>
+          <div class="item">
+            <h6 class="center">Osiris</h6>
+            <img src="./asset/Egyptians/Osiris.jpg" alt="SPPU">
+          </div>
+          <div class="item">
+            <h6 class="center">Coffin of henutmehyt</h6>
+            <img src="./asset/Egyptians/Outer coffin of henutmehyt.jpg" alt="Spring">
+
+
+          </div>
+
+          <div class="item">
+            <h6 class="center">Ptah standing</h6>
+            <img src="./asset/Egyptians/Ptah standing.jpg" alt="Ganesha">
+
+          </div>
+          <div class="item">
+            <h6 class="center">Queen Karomama I</h6>
+            <img src="./asset/Egyptians/Queen Karomama I.jpg" alt="Dolphin">
+          </div>
+          <div class="item">
+            <h6 class="center">queen Nefertiti</h6>
+            <img src="./asset/Egyptians/queen Nefertiti.jpg" alt="Sunset">
+          </div>
+          <div class="item">
+            <h6 class="center">Lady Kemtet</h6>
+            <img src="./asset/Egyptians/Statuette of Lady Kemtet.jpg" alt="Water-melon">
+          </div>
+          <div class="item">
+            <h6 class="center">Stele of Nefertiabet</h6>
+            <img src="./asset/Egyptians/Stele of Nefertiabet.jpg" alt="Bunny">
+          </div>
+          <div class="item">
+            <h6 class="center">Stele of the snake king</h6>
+            <img src="./asset/Egyptians/Stele of the snake king.jpg" alt="Monochromatic mountains">
+          </div>
+          <div class="item">
+            <h6 class="center">Tefnut</h6>
+            <img src="./asset/Egyptians/Tefnut.jpg" alt="Symmetry">
+          </div>
+          <div class="item">
+            <h6 class="center">The Gebel el-Arak knife</h6>
+            <img src="./asset/Egyptians/The Gebel el-Arak knife.jpg" alt="Orange">
+          </div>
+          <div class="item">
+            <h6 class="center">The god Amun protecting Tutankhamun</h6>
+            <img src="./asset/Egyptians/The god Amun protecting Tutankhamun.jpg" alt="Panda">
+          </div>
+          <div class="item">
+            <h6 class="center">Thutmosis III</h6>
+            <img src="./asset/Egyptians/Thutmosis III.jpg" alt="Bright shades">
+          </div>
+          <div class="item">
+            <h6 class="center">Triad of Menkaure</h6>
+            <img src="./asset/Egyptians/Triad of Menkaure.jpg" alt="Mandala Art">
+          </div>
+          <div class="item">
+            <h6 class="center">Tut</h6>
+            <img src="./asset/Egyptians/Tut.jpg" alt="Rose">
+          </div>
+          <div class="item">
+            <h6 class="center">Amnte Nofre</h6>
+            <img src="./asset/Egyptians/Amnte Nofre.jpg" alt="Sunflower">
+          </div>
+          <div class="item">
+            <h6 class="center">Amenophis II </h6>
+            <img src="./asset/Egyptians/Amenophis II.jpg" alt="Lamp">
+          </div>
+          <div class="item">
+            <h6 class="center">Goddess Sakhmet</h6>
+            <img src="./asset/Egyptians/Goddess Sakhmet.jpg" alt="eyes">
+          </div>
+          <div class="item">
+            <h6 class="center">Statue of Lady Sennuwy I</h6>
+            <img src="./asset/Egyptians/Statue of Lady Sennuwy I.jpg" alt="hen">
+          </div>
+          <div class="item">
+            <h6 class="center">Statue of Ramses</h6>
+            <img src="./asset/Egyptians/Statue of Ramses II.jpg" alt="Pillars">
+
+          </div>
+        </div>
+      </section>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="./asset/Egyptians/archaeology2.jpg"></div>
+    </div>
+
+
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+      //preloader javascript
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+      }
+
+      function showPage() {
+        document.getElementById("loader-wrapper").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+  integrity="sha512-k2WPPrSgRFI6cTaHHhJdc8kAXaRM4JBFEDo1pPGGlYiOyv4vnA0Pp0G5XMYYxgAPmtmv/IIaQA6n5fLAyJaFMA=="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="Egypt.js"></script>
+
+</html>
